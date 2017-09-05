@@ -1,0 +1,19 @@
+{
+  "category": {
+    "id": 328152,
+    "name": "Birds",
+    "popularity": 4
+  },
+  "id": 123456789,
+  "name": "George",
+  "photoUrls": [
+    "http://example-photo.com/valid.png"
+  ],
+  "status": "available",
+  "tags": [
+    {
+      "id": 9876543,
+      "name": "Parrot"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "openapi-validation-middleware",
+  "version": "1.0.0",
+  "description": "Create validation tools for validating requests/responses of OpenAPI and Swagger documented processes in express-style middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp combined-test"
+  },
+  "author": "Sam Shull <sam+npm@samshull.com>",
+  "license": "MIT",
+  "dependencies": {
+    "isemail": "^3.0.0",
+    "isuri": "^2.0.3",
+    "path-to-regexp": "^1.7.0"
+  },
+  "devDependencies": {
+    "assume": "^1.5.1",
+    "assume-sinon": "^1.0.0",
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "eslint": "^4.5.0",
+    "eslint-config-godaddy": "^2.0.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-mocha": "^4.11.0",
+    "express": "^4.15.4",
+    "godaddy-test-tools": "^9.0.0",
+    "gulp": "^3.9.1",
+    "sinon": "^3.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/godaddy/openapi-validation-middleware.git"
+  },
+  "keywords": [
+    "swagger",
+    "express",
+    "openapi",
+    "validation"
+  ],
+  "bugs": {
+    "url": "https://github.com/godaddy/openapi-validation-middleware/issues"
+  },
+  "homepage": "https://github.com/godaddy/openapi-validation-middleware#readme"
+}
