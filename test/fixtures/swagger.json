@@ -625,6 +625,12 @@
             "schema": {
               "$ref": "#/definitions/Order"
             }
+          },
+          {
+            "in": "query",
+            "name": "identifier",
+            "description": "identifier of the order",
+            "type": "number"
           }
         ],
         "produces": [
