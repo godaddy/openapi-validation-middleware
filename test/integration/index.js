@@ -134,7 +134,6 @@ describe('Validates requests', () => {
             { code: 'INVALID_FORMAT', message: 'The value in "Order.ip" must be in the format "ipv6"' },
             { code: 'STRING_TOO_LONG', message: 'The value in "Order.referrer" is too long for string format validation. (261)' },
             { code: 'MAXIMUM_STRING_NUMBER', message: 'The value in "Order.id" exceeds the maximum string length for number validation (255) "261"' },
-            { code: 'EXPECT_INTEGER', message: 'The value in "Order.petId" must be an integer, "string" given' },
             { code: 'EXPECT_INTEGER', message: 'The value in "Order.quantity" must be an integer, "number" given' },
             { code: 'EXCEEDS_EXCLUSIVE_MAXIMUM', message: 'The value in "Order.quantity" must be less than "5" <= 5.4' },
             { code: 'MISSING_VALUE', message: 'The value of "identifier" is not specified' }
