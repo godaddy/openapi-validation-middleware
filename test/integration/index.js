@@ -68,7 +68,7 @@ describe('Validates requests', () => {
     return request.post('/pet', invalidPet)
       .then(r => {
         assume(r.status).equals(200);
-        assume(r.data.body).eqls(Object.assign(invalidPet, { category: { id: 123, name: 'Birds', popularity: 4 }}));
+        assume(r.data.body).eqls(Object.assign(invalidPet, { category: { id: 123, name: 'Birds', popularity: 4 } }));
       });
   });
 
