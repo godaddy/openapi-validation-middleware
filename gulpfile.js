@@ -1,4 +1,4 @@
-require('godaddy-test-tools')(require('gulp'), {
+module.exports = require('godaddy-test-tools')(require('gulp'), {
   lint: {
     files: [
       'package.json',
