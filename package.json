@@ -11,21 +11,22 @@
   "dependencies": {
     "isemail": "^3.2.0",
     "isuri": "^2.0.3",
-    "path-to-regexp": "^3.0.0"
+    "path-to-regexp": "^6.1.0"
   },
   "devDependencies": {
     "assume": "^2.2.0",
     "assume-sinon": "^1.0.1",
-    "axios": "^0.19.0",
+    "axios": "^0.19.2",
     "body-parser": "^1.19.0",
-    "eslint": "^6.0.1",
-    "eslint-config-godaddy": "^3.0.0",
-    "eslint-plugin-json": "^1.4.0",
-    "eslint-plugin-mocha": "^5.3.0",
+    "eslint": "^6.8.0",
+    "eslint-config-godaddy": "^4.0.0",
+    "eslint-plugin-json": "^2.0.1",
+    "eslint-plugin-mocha": "^6.2.2",
     "express": "^4.17.1",
-    "godaddy-test-tools": "^12.0.2",
+    "godaddy-test-tools": "^14.0.0",
     "gulp": "^4.0.2",
-    "sinon": "^7.3.2"
+    "mocha": "^7.0.1",
+    "sinon": "^8.1.1"
   },
   "directories": {
     "test": "test"

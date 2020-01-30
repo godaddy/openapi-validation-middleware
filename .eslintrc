@@ -2,6 +2,7 @@
   root: true,
   extends: 'godaddy',
   rules: {
-    indent: ['error', 2]
+    indent: ['error', 2],
+    no-prototype-builtins: 1
   }
 }
