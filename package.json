@@ -1,6 +1,6 @@
 {
   "name": "openapi-validation-middleware",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Create validation tools for validating requests/responses of OpenAPI and Swagger documented processes in express-style middleware",
   "main": "index.js",
   "scripts": {
