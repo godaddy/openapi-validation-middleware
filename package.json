@@ -25,7 +25,7 @@
     "express": "^4.17.1",
     "godaddy-test-tools": "^14.0.0",
     "gulp": "^4.0.2",
-    "mocha": "^7.0.1",
+    "mocha": "^10.2.0",
     "sinon": "^8.1.1"
   },
   "directories": {
